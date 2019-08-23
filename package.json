@@ -1,0 +1,18 @@
+{
+  "name": "express-router1",
+  "version": "1.0.0",
+  "description": "express router",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "keywords": [
+    "router"
+  ],
+  "author": "Ubine M J",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.6.10"
+  }
+}
