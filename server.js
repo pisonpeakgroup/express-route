@@ -10,6 +10,7 @@
 
  // importing Routes
  const usersRouter = require('./src/routes/users');
+ const happRouter = require('./src/routes/Happ');
  const config = require('./src/config/Config');
 
  // connect our database
@@ -26,5 +27,6 @@ console.log('Server running at http://localhost:2020/');
 
 //~Using Routers
 app.use('/users', usersRouter);
+app.use('/happ', happRouter);
 
 module.exports = app;
